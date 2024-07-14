@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: coral;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+}
+
+.letter {
+    margin-bottom: 20px;
+}
+
+.letter p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.roses {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.roses img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
